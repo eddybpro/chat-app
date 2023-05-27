@@ -1,0 +1,356 @@
+@media screen and (max-width:300px) {
+    .phone-app{
+        position: absolute;
+        top: 6.5rem;
+        left: 2rem;
+        right: 2rem;
+    }
+
+    .txt-title{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .blue-bg-div{
+        height: 70rem;
+        width: 45%;
+    }
+
+    .phone-app{
+        position: absolute;
+        top: 6.5rem;
+        left: 10rem;
+        right: 10rem;
+        padding: 1.5rem;
+    }
+
+    .white-bg{
+        position: absolute;
+        left: 12rem;
+        right: 12rem;
+    }
+
+    .user-box{
+        padding: 5rem 3rem 2rem;
+    }
+
+    .user-info{
+        gap: 1rem;
+    }
+
+    .bar{
+        height: .4rem;
+        width: 2rem;
+    }
+
+    .f-bar{
+        transform: rotate(-50deg) translateY(-.6rem);
+    }
+    
+    .s-bar{
+        transform: rotate(50deg) translateY(.6rem);
+    }
+
+    .avatar{
+        width: 4rem;
+    }
+
+    .user-name{
+        color: var(--White);
+        font-size: 1.6rem;
+        margin-bottom: .25rem;
+    }
+    
+    .user-para{
+        color: var(--Pale-Violet);
+        font-size: 1.4rem;
+    }
+
+    .dots-btn{
+        gap: .3rem;
+    }
+
+    .dot{
+        width: .5rem;
+        height: .5rem;
+    }
+
+    .main-app{
+        padding:2rem  1.25rem;
+    }
+
+    .sending-para{
+        font-size: 1.6rem;
+        line-height: 2.25rem;
+        margin-bottom:1rem;
+        max-width: 50%;
+        border-radius: 1rem;
+        padding: 1rem;
+        border-bottom-left-radius: .5rem;
+    }
+
+    .imgs-dog-box{
+        margin-bottom: 1rem;
+    }
+    
+    .img-dog{
+        margin: 0 0.5rem;
+        width: 6rem;
+        border-radius: 1rem;
+    }
+
+    .recieving-para{
+        border-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        font-size: 1.6rem;
+        line-height: 2.25rem;
+        margin-bottom:1rem;
+        max-width: 50%;
+        padding:1rem;
+    }
+
+    .price-box{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        max-width: 50%;
+    }
+
+    label{
+        gap: 1rem;
+    }
+
+    .radio-input{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .radio-input::before{
+        content: "";
+        width: .8rem;
+        height: .8rem;
+        box-shadow: inset 1.5rem 1.5rem var(--White);
+    }
+    
+    .radio-input:checked::before{
+        transform: scale(1);
+    }
+    
+    .message-container{
+        margin-top: 2rem;
+    }
+
+    .msg{
+        padding: 1.7rem 1rem;
+        width: 90%;
+    }
+
+    .send-msg-btn{
+        right: calc(10% + 1rem);
+    }
+
+    .txt-container{
+        margin-top: 40rem;
+        text-align: center;
+        padding: 2rem 3rem;
+    }
+
+    .txt-para{
+        max-width: 60rem;
+        margin: auto;
+    }
+
+    .txt-title{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        margin-bottom: 15rem;
+    }
+
+    .blue-bg-div{
+        height: 70rem;
+        width: 70%;
+        border-bottom-right-radius: 90rem;
+    }
+
+    .phone-app{
+        position: absolute;
+        top: 6.5rem;
+        left: 50%;
+        right: auto;
+        padding: 1rem;
+        max-width: 35rem;
+    }
+
+    .white-bg{
+        position: absolute;
+        left: 5rem;
+        right: 5rem;
+    }
+
+    .user-box{
+        padding: 3rem 1.9rem 1rem;
+    }
+
+    .user-info{
+        gap: .5rem;
+    }
+
+    .bar{
+        height: .2rem;
+        width: 1rem;
+    }
+
+    .f-bar{
+        transform: rotate(-50deg) translateY(-.3rem);
+    }
+    
+    .s-bar{
+        transform: rotate(50deg) translateY(.3rem);
+    }
+
+    .avatar{
+        width: 2rem;
+    }
+
+    .user-name{
+        color: var(--White);
+        font-size: 1.2rem;
+        margin-bottom: .25rem;
+    }
+    
+    .user-para{
+        color: var(--Pale-Violet);
+        font-size: 1rem;
+    }
+
+    .dots-btn{
+        gap: .1rem;
+    }
+
+    .dot{
+        width: .3rem;
+        height: .3rem;
+    }
+
+    .main-app{
+        padding: .85rem;
+    }
+
+    .sending-para{
+        font-size: .9rem;
+        line-height: 1rem;
+        margin-bottom:.7rem;
+        max-width: 60%;
+        border-radius: .7rem;
+        padding: .73rem .5rem;
+        border-bottom-left-radius: .2rem;
+    }
+
+    .imgs-dog-box{
+        margin-bottom: .5rem;
+    }
+    
+    .img-dog{
+        margin: 0 0.3rem;
+        width: 4rem;
+        border-radius: .7rem;
+    }
+
+    .recieving-para{
+        border-radius: .7rem;
+        border-bottom-right-radius: .2rem;
+        font-size: .9rem;
+        line-height: 1rem;
+        margin-bottom:.7rem;
+        width: fit-content;
+        max-width: 60%;
+        padding:.73rem .5rem;
+    }
+
+    .price-box{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        max-width: 75%;
+    }
+
+    label{
+        gap: .5rem;
+    }
+
+    .radio-input{
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    .radio-input::before{
+        content: "";
+        width: .6rem;
+        height: .6rem;
+        box-shadow: inset 1rem 1rem var(--White);
+    }
+    
+    .radio-input:checked::before{
+        transform: scale(1);
+    }
+    
+    .message-container{
+        margin-top: 1.5rem;
+    }
+
+    .msg{
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .send-msg-btn{
+        right: 1rem;
+    }
+
+    .txt-container{
+        margin-top: 20rem;
+        text-align: left;
+        padding: 2rem 3rem;    }
+
+    .txt-para{
+        max-width: 50rem;
+        margin: auto 0;
+    }
+
+    .txt-title{
+        font-size: 4rem;
+    }
+
+    .grayish-bg-div{
+        position: absolute;
+        top: -11rem;
+        right: 0;
+        width: 50%;
+        height: 90rem;
+        background:linear-gradient(180deg, var(--Grayish-Blue) 2rem, transparent 95%);
+        filter: brightness(115%);
+        opacity: .3;
+        border-top-left-radius: 20rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
